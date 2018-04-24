@@ -4,6 +4,12 @@ This project assignment has been carried out to review the process of getting an
 
 <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
+There are four files in this repository:  
+* README.md  
+* Code Book.md  
+* run_analysis.R  
+* AverageData.csv  
+
 The R script starts with downloading the zip file from the website which is provided on the assignment instructions, followed by an unzipping step which creates a repository named **"UCI HAR Dataset"** where all raw data files have been stored.
 
 The **X file** which contains the measurement data, the **y file** which contains the labels of activities experimented, and the **subject** file, respectively for both **training** and **test** data sets, are read into R using `read.table` function and stored as data frames.
